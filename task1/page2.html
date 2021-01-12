@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>福建省教育信息化统一平台</title>
+</head>
+
+<body>
+    <header>
+        <div class="inner_header">
+            <div class="logo">
+                <img src="./static/img/logo.jpg" alt="">
+                <span class="title">福建省教育信息化统一平台</span>
+                <span class="tag">网教通</span>
+            </div>
+            <div class="bar">
+                <ul>
+                    <li> <a href="">首页</a></li>
+                    <li> <a href="">教学管理</a></li>
+                    <li> <a href="">学习</a></li>
+                    <li> <a href="">资源超市</a></li>
+                    <li> <a href="">教育应用</a></li>
+                    <li> <a href="">新闻</a></li>
+                    <li> <a href="">名师名校</a></li>
+                    <li style="font-size: 0;"> <img src="./static/img/新功能.png" alt="" style="width: 50px;"></li>
+                    <li style="font-size: 0;">
+                        <img src="./static/img/搜索.png" alt="" style="width: 20px;">
+                    </li>
+                </ul>
+
+            </div>
+            <div class="user">
+                <div class="user_img">
+                    <img src="./static/img/user.png" alt="">
+                    <div class="dot">
+                    </div>
+                </div>
+                <div class="user_name">
+                    <p>Coco</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <nav>
+            <div class="nav_head">
+                <div class="back">
+                    <img src="./static/img/back.png" alt="">
+                </div>
+                <div class="title">
+                    个人中心
+                </div>
+                <div class="menu">
+                    <img src="./static/img/more.png" alt="">
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <div class="icon">
+                        <img src="./static/img/首页.png" alt="">
+                    </div>
+                    <div class="title">
+                        其他内容
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="./static/img/布置作业.png" alt="">
+                    </div>
+                    <div class="title">
+                        其他内容
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="./static/img/我的作业.png" alt="">
+                    </div>
+                    <div class="title">
+                        我的班级
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="./static/img/统计分析.png" alt="">
+                    </div>
+                    <div class="title">
+                        其他内容
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="main_header">
+                <div class="left_title">
+                    我的班级
+                </div>
+                <div class="right_title">
+                    返回上一级
+                </div>
+            </div>
+            <!-- 主要改变的部分 -->
+            <div class="main_body">
+                <div class="main_body-header">
+                    尊敬的<span>老师（刘老师）</span>，请填写班级信息：
+                </div>
+                <div class="main_body-main">
+                    <form action="">
+                        <div class="item"><span>学校</span><input type="text" name="" id="" placeholder="请选择学校"></div>
+                        <div class="item"><span><span class="require">* </span>学段</span><select name="" id="">
+                                <option value="" style="display: none; ">请选择学段</option>
+                                <option value="小学">小学</option>
+                                <option value="初中">初中</option>
+                                <option value="高中">高中</option>
+                                <option value="大学">大学</option>
+                            </select></div>
+                        <div class="item">
+                            <span><span class="require">* </span>年级</span>
+                            <select name="" id="">
+                                <option value="" style="display: none;">请选择年级</option>
+                                <option value="小学">一年级</option>
+                                <option value="初中">二年级</option>
+                                <option value="高中">三年级</option>
+                            </select>
+                        </div>
+                        <div class="item">
+                            
+                            <span><span class="require">* </span>班级名</span>
+                            <input type="text" name="" id="" placeholder="请输入班级名称，限20个字符，不支持输入_和%">
+                        </div>
+                        <div class="item">
+                            <span>类型</span>
+                            <label for="">
+                                <input type="radio" name="type" id="" checked><span>行政班</span>
+                                <input type="radio" name="type" id=""><span>教学班</span>
+                            </label>
+                        </div>
+                        <div class="item">
+                            <span>退出权限设置</span>
+                            <label for="">
+                                <input type="radio" name="limit" id="" checked><span>允许退出</span>
+                                <input type="radio" name="limit" id=""><span>通过班级管理员审核后退出</span>
+                                <input type="radio" name="limit" id=""><span>禁止退出</span>
+                            </label>
+                        </div>  
+                        <input type="submit" value="保存">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
