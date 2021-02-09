@@ -1,6 +1,6 @@
 "use strict";
 
-function json(result) {
+function myclass(result) {
   console.log(result);
   var classMessage = JSON.parse(localStorage.getItem("classMessage"));
   console.log(classMessage);

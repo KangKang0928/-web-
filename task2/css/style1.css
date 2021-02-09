@@ -197,6 +197,7 @@ nav ul li .title{
     border: 1px solid  rgb(59,168,240);
     height: 30px;
     width: 200px;
+    text-indent: 0.5rem;
 }
 .main_body-header .serach form input::placeholder{
     font-size: 0.8rem;
@@ -229,7 +230,7 @@ nav ul li .title{
     justify-content: center;
     align-items: center;
 }
-.main_body-main ul li:nth-child(1){
+.active{
     border-right: 1px solid rgb(233,233,233);
     background-color: #fff;
     color:  rgb(59,168,240);
@@ -251,58 +252,32 @@ nav ul li .title{
 
     flex-direction: column;
 }
-.main_body-main .container .item:not(:nth-child(1)) .teacher_img{
+.main_body-main .container .item .teacher_img{
     position: relative;
     width: 100%;
     height: 100px;
     object-fit: cover;
     overflow: hidden;
 }
-.main_body-main .container .item:not(:nth-child(1)) .teacher_img img{
+.main_body-main .container .item .teacher_img img{
     width: 100%;
 }
-.main_body-main .container .item:not(:nth-child(1)) .teacher_img .tag{
+.main_body-main .container .item .teacher_img .tag{
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.main_body-main .container .item:not(:nth-child(1)) .teacher_img .tag span{
+.main_body-main .container .item .teacher_img .tag span{
     font-size: 0.5rem;
     line-height: 0px;
     color: #fff;
     background-color: rgb(249,157,67);
     padding: 2px 4px;
 }
-.main_body-main .container .item:not(:nth-child(1)) .teacher_img .tag .admin{
+.main_body-main .container .item .teacher_img .tag .admin{
     background-color: rgb(250,75,91);
 }
-.main_body-main .container .item:not(:nth-child(1)) .teacher_name{
-    text-align: center;
-    font-weight: bold;
-    line-height: 30px;
-    height: 30px;
-    font-size: 0.9rem;
-}
-.main_body-main .container .item:nth-child(1) .teacher_img .tag{
-    width: 100%;
-    height: 100px;
-}
-
-.main_body-main .container .item:nth-child(1) .teacher_img .tag span{
-    display: inline-block;
-    font-size: 0.5rem;
-    color: #fff;
-    background-color: rgb(249,157,67);
-    padding: 2px 4px;
-    margin: 2px 0;
-}
-.main_body-main .container .item:nth-child(1) .teacher_img .tag .admin{
-    font-size: 0.5rem;
-    color: #fff;
-    background-color:  rgb(250,75,91);
-    padding: 2px 4px;
-}
-.main_body-main .container .item:nth-child(1) .teacher_name{
+.main_body-main .container .item .teacher_name{
     text-align: center;
     font-weight: bold;
     line-height: 30px;
